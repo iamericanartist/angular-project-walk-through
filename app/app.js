@@ -12,24 +12,4 @@ app.config(function($routeProvider) {               // links the controllers to 
      templateUrl: 'partials/searchDatabase.html',
      controller: 'searchDatabaseCtrl'
    });
-   // .when('/input', {
-   //   templateUrl: 'partials/inputMadlib.html',
-   //   controller: 'inputMadlibCtrl'
-   // })
-   // .when('/output', {
-   //   templateUrl: 'partials/outputMadlib.html',
-   //   controller: 'outputMadlibCtrl'
-   // })
-   // .when('/login', {
-   //   templateUrl: 'partials/loginRegister.html',
-   //   controller: 'loginCtrl'
-   // })
-   // .when('/logout', {
-   //   templateUrl: 'partials/loginRegister.html',
-   //   controller: 'loginCtrl'
-   // })
-   // .when('/beesknees', {
-   //   templateUrl: 'partials/inputMadlib.html',
-   //   controller: 'inputMadlibCtrl'
-   // });
 });
